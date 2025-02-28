@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./App.module.css";
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Disease from "./components/Disease.jsx";
@@ -19,8 +19,7 @@ function App() {
           <Route path='/Drugs' element={<DrugsAndSupplements/>}></Route>
           <Route path='/Doctor' element={<Doctor/>}></Route>
           <Route path='/News' element={<NewsAndBlogs/>}></Route>
-        </Routes>
-      
+        </Routes>  
     </BrowserRouter>
   );
 }

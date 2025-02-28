@@ -1,9 +1,27 @@
+import styles from '../css/About.module.css'
+
 const About = ()=>{
     return(
-        <div>
-            <h1>About Us</h1>
-            <p>This tool does not provide medical advice. It is intended for informational purposes only. This tool may leverage certain generative artificial intelligence tools to generate results, and is not a substitute for professional medical advice, diagnosis or treatment. Never ignore professional medical advice in seeking treatment because of something you have read on the WebMD Site. If you think you may have a medical emergency, immediately call your doctor</p>
-        </div>
+        <>
+            <h1 className={styles.cover}>About us</h1>
+            <div className={styles.content}>
+                
+                <br />
+                <h2>Trustworthy</h2>
+                <h3>All Patient’s content is checked by health professionals so you can trust its accuracy, 
+                    authority, and it being up to date. 
+                    Everything on Patient meets the highest standards of clinical accuracy and ethical integrity.
+                </h3>
+                <br />
+                <h2>Standing out from the rest</h2>
+                <h3>With so much health information available from so many different sources it is difficult to 
+                    know what to trust. We understand how important it is to be able to trust what you read and
+                    view, so everything we produce is checked and reviewed by health professionals. 
+                    Patient’s health information is trusted and used by healthcare professionals around the world 
+                    as well as their patients.
+                </h3>
+            </div>
+        </>
     )
 }
 export default About

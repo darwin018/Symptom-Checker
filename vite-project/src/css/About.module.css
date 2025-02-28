@@ -1,0 +1,21 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cover{
+    /* background-color: #344CB7; */
+    background-image: url("/aboutcover.jpg");
+    color: white;
+    padding: 30px;
+    font-weight: 120;
+    height: 140px;
+}
+h2{
+    font-weight: 100;
+}
+h3{
+    font-weight: 40;
+}
+.content{
+    margin-left: 200px;
+    margin-right: 200px;
+}

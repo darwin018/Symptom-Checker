@@ -1,0 +1,104 @@
+.top{
+    color: white;
+    background-color: #32325d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding: 20px;
+    padding-left: 70px;
+}
+.top h1{
+    font-weight: 20;
+    margin: 0;
+}
+.top h3{
+    margin: 0;
+    font-weight: 20;
+    margin-left: 40px;
+}
+.content{
+    display: flex;
+    margin-left: 20px;
+}
+.hfood{
+    width: 750px;
+    padding: 20px;
+    border: 2px solid white;
+}
+.hfood img{
+    border-radius: 10px;
+}
+.hfood h2{
+    padding-left: 10px;
+    font-weight: 25;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hfood h3{
+    padding-left: 10px;
+    font-weight: 20;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* .hfood:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+} */
+ .sleep{
+    padding: 20px;
+    width: 700px;
+    border: 2px solid white;
+ }
+.sleep img{
+    height: 317px;
+    width: 600px;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+}
+.sleep h2{
+    padding-left: 10px;
+    font-weight: 25;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sleep h3{
+    padding-left: 10px;
+    font-weight: 20;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+footer{
+    margin: 0;
+    padding: 20px;
+    background-color: #242442;
+    color: white;
+}
+footer ul{
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+footer ul li{
+    position: relative;
+    margin: 0;
+    font-size: smaller;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer h2{
+    text-align: center;
+    display: block;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot1{
+    width:200px;
+}
+.foot2{
+    width:300px;
+}
