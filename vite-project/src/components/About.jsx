@@ -1,9 +1,13 @@
 import styles from '../css/About.module.css'
+import {Link} from 'react-router-dom'
 
 const About = ()=>{
     return(
         <>
-            <h1 className={styles.cover}>About us</h1>
+            <div className={styles.cover}>
+                <h1>About us</h1>
+            </div>
+            
             <div className={styles.content}>
                 
                 <br />
@@ -21,6 +25,26 @@ const About = ()=>{
                     as well as their patients.
                 </h3>
             </div>
+            <footer>
+                <h2>Quick Links</h2>
+                <div className={styles.foot}>
+                <div className={styles.foot1}>
+                    <ul>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/About'>About</Link></li>
+                        <li><Link to='/Disease'>Health Advice</Link></li>
+                    </ul>
+                </div>
+                <div className={styles.foot2}>
+                    <ul>
+                        <li><Link to='/Drugs'>Drugs & Supplements</Link></li>
+                        <li><Link to='/Doctor'>Find a Doctor</Link></li>
+                        <li><Link to='/News'>News</Link></li>
+                    </ul>
+                </div>
+                </div>
+                <center><p>© ABC Private Limited. All rights reserved.</p></center>
+            </footer>
         </>
     )
 }
