@@ -14,6 +14,7 @@ const Navbar = ()=>{
                         <li><Link to='/Drugs'>Drugs & Supplements</Link></li>
                         <li><Link to='/Doctor'>Find a Doctor</Link></li>
                         <li><Link to='/News'>News</Link></li>
+                        <li><Link to='/BMI'>BMI Calculator</Link></li>
                     </ul>
                 </nav>
             </header>

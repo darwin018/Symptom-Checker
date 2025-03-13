@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 const Disease = ()=>{
     return(
         <>
-            <div className={styles.top}>
-
+            <div className={styles.cover}>
+                <h1>Symptom checker</h1>
             </div>
         </>
     )

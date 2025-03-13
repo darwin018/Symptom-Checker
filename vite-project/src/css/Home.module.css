@@ -18,6 +18,7 @@
 .content{
     display: flex;
     margin-left: 20px;
+    /* box-shadow: 10px 10px 10px 10px ; */
 }
 .hfood{
     width: 750px;
@@ -63,6 +64,20 @@
     font-weight: 20;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
+}
+.news{
+    margin: 50px;
+}
+.news h1{
+    font-weight: 18;
+    color: #32325d;
+}
+.tips{
+    margin: 50px;
+}
+.tips h1{
+    font-weight: 18;
+    color: #32325d;
 }
 footer{
     margin: 0;
