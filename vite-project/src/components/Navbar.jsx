@@ -11,9 +11,9 @@ const Navbar = ()=>{
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/About'>About</Link></li>
                         <li><Link to='/Disease'>Symptom checker</Link></li>
-                        <li><Link to='/Drugs'>Drugs & Supplements</Link></li>
-                        <li><Link to='/Doctor'>Find a Doctor</Link></li>
-                        <li><Link to='/News'>News</Link></li>
+                        {/* <li><Link to='/Drugs'>Drugs & Supplements</Link></li> */}
+                        {/* <li><Link to='/Doctor'>Find a Doctor</Link></li> */}
+                        {/* <li><Link to='/News'>News</Link></li> */}
                         <li><Link to='/BMI'>BMI Calculator</Link></li>
                     </ul>
                 </nav>

@@ -5,7 +5,7 @@
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
   
@@ -71,4 +71,42 @@
     padding-bottom: 20px;
     font-weight: 120;
     border-radius: 10px;
+}
+footer{
+  margin: 0;
+  padding: 20px;
+  background-color: #242442;
+  color: white;
+}
+footer ul{
+  padding: 10px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+footer ul li{
+  position: relative;
+  margin: 0;
+  font-size: smaller;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+footer h2{
+  text-align: center;
+  display: block;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+}
+.foot1{
+  width:200px;
+}
+.foot2{
+  width:300px;
 }
