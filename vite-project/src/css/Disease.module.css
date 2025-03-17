@@ -86,6 +86,13 @@
   .advice h3 {
     color: #007bff;
   }
+  .tips{
+    margin: 50px;
+}
+.tips h1{
+    font-weight: 18;
+    color: #32325d;
+}
   
   footer{
     margin: 0;

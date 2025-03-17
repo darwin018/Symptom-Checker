@@ -11,8 +11,8 @@ const Home = ()=>{
             </div>
             <div className={styles.content}>
                 <div className={styles.hfood}>
-                    <img src="/healthyfood.webp" alt="" />
-                    <h2>Diet</h2>
+                    <img src="/healthyfood.webp" alt="" /><br /><br />
+                    <h2>Diet</h2><br />
                     <h3>A balanced diet fuels your body with essential nutrients, promoting overall health and well-being. 
                         Include fresh fruits, 
                         vegetables, whole grains, and lean proteins while limiting processed foods and excess sugar.
@@ -21,8 +21,8 @@ const Home = ()=>{
                     </h3>
                 </div>
                 <div className={styles.sleep}>
-                    <img src="/sleep.jpg" alt="" />
-                    <h2>Sleep</h2>
+                    <img src="/sleep.jpg" alt="" /><br /><br />
+                    <h2>Sleep</h2><br />
                     <h3>Sleep is essential for physical and mental well-being. Aim for 7-9 hours of restful sleep 
                         each night to improve focus, mood, 
                         and overall health. Maintain a consistent sleep schedule,
